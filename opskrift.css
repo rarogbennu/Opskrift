@@ -1,0 +1,48 @@
+body {
+  background-color: #eedfca;
+  font-size: larger;
+  /* font-weight: 300; */
+  color: #b45326;
+  font-family: monospace;
+  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+}
+
+#eca24d header {
+  font-weight: 900;
+  font-size: x-large;
+}
+
+/* #beskrivelse {
+  background-color: #615f5fff;
+}
+
+#ingredienser {
+  background-color: #3e3ee2;
+}
+
+#fremgangsmåde {
+  background-color: #3e3ee2;
+}
+
+#næringsindhold {
+  background-color: #3e3ee2;
+}
+
+#tips {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.storpandekage {
+  position: relative;
+  color: #b91c1c;
+}
+
+.tekstplacering {
+  position: absolute;
+  top: 62%;
+  left: 13%;
+}
