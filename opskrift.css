@@ -1,27 +1,104 @@
 body {
+  font-family: 'Courier New', Courier, monospace;
   background-color: #eedfca;
-  font-size: larger;
-  /* font-weight: 300; */
-  color: #b45326;
-  font-family: monospace;
-  /* font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; */
+} /* definition af baggrundsfarve og standardtekst */
+
+.grid-container {
+  display: grid;
+  grid-auto-rows: 20vh;
+  gap: 40px;
+} /* standardcontainer definition */
+
+@media (min-width: 300px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 40vh;
+  }
+} /* visning ud fra forskellige skærmstørrelser sammen med de t0 nedenstående */
+
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 40vh;
+  }
 }
 
-.container-of-grids {
-  display: grid;
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 40vh;
+  }
 }
+
+.grid-item {
+  background-color: #d57a17;
+  margin: auto;
+  padding: 3vw;
+  border-radius: 100px;
+} /* Definition af grid-item type 1 - farve, margin, padding ... de samme nedenfor for andre grid-items   */
+
+.grid-item2 {
+  background-color: #944c0f;
+  margin: auto;
+  padding: 3vw;
+  border-radius: 100px;
+}
+
+.grid-item3 {
+  background-color: #d57a17;
+  margin: auto;
+  padding: 4vw;
+  border-radius: 100px;
+}
+
+.grid-item4 {
+  background-color: #944c0f;
+  margin: auto;
+  padding: 4vw;
+  border-radius: 100px;
+}
+
+.pancakeflip {
+  border-radius: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+} /* specifikationer for pandekageflipbilledet */
+
+.bigpancake {
+  border-radius: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  opacity: 0.5;
+} /* Billedet af den store pandekage øverst så den er centreret og fylder den øverste del samt rundede hjørner */
+
+.pancakecontainer {
+  position: relative;
+  text-align: center;
+  color: darkred;
+} /* Sammen med textplacement styrer den teksten over bigpancake */
+
+.textplacement {
+  position: absolute;
+  top: 69.5%;
+  left: 42.5%;
+  transform: translate(-50%, -50%);
+} /* Placering af tekst over øverste billede */
 
 h1 {
+  font-size: 2.4vw;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+} /* h1-overskrift specifikationer og nedenfor de andre  */
+
+h2,h3,h4,h5,h6 {
+  text-align: center;
 }
 
-.storpandekage {
-  position: relative;
-  color: #b91c1c;
-}
-
-.tekstplacering {
-  position: absolute;
-  top: 62%;
-  left: 13%;
+figcaption {
+  padding: 0.5em;
+  font-size: small;
+  text-align: center;
 }

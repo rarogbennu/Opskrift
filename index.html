@@ -1,87 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pandekagehuset</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="opskrift.css" />
+    <link rel="icon" href="pandekageemoji.svg">
+  </head>
 
-    <title>Pandekageopskrift</title>
-
-    <link rel="stylesheet" href="opskrift.css">
-    <link rel="icon" href="pandekageemoji.svg">  <!--Kig nærmere på rettigheder From "https://commons.wikimedia.org/wiki/File:Twemoji12_1f95e.svg"-->
-</head>
-
-<body>
-  <main class="container-of-grids">
+  <body>
     
     <header>
-      <div class="storpandekage">
-        <img src="bigpancake.jpg" alt="Stor pandekage"> <!-- From "https://commons.wikimedia.org/wiki/File:Koninginnedag_te_Bloemendaal,_het_bakken_van_%27s_werelds_grootste_pannekoek_lokte_vele_nieuwsgierigen_naar_het_feestterrein_aan_de_Kennemerweg_(bij_Veen_en_Duin)._Aangekocht_in_1982_van_fotograaf_C._de.JPG"-->
-        <div class="tekstplacering"><h1>Velkommen til pandekagehuset!</h1></div>
+      <div class="pancakecontainer">
+        <img src="bigpancake.jpg" alt="Stor pandekage" class="bigpancake">
+        <div class="textplacement"><h1>Velkommen til pandekagehuset!</h1></div>
       </div>    
     </header>
-    
-    <nav>
-      <ul>
-        <li><a href="#beskrivelse">Om pandekager</a></li>
-        <li><a href="#ingredienser">Ingredienser</a></li>
-        <li><a href="#fremgangsmåde">Fremgangsmåde</a></li>
-        <li><a href="#næringsindhold">Næringsindhold</a></li>
-        <li><a href="#tips">Tips</a></li>
-      </ul>
-    </nav>
 
-    <section id="beskrivelse">
-      <h2>Om pandekager</h2>
-      <p>Pandekager --- mmmmm, nam nam nam - øjjjj hvor smager de godt. Hvis du du vil ha' den hemmelige opskrift skal du bare læse med.</p>
+    <section class="grid-container">
+      <article class="grid-item">      
+        <ul>
+          <li><a href="#beskrivelse">Om pandekager</a></li>
+          <li><a href="#ingredienser">Ingredienser</a></li>
+          <li><a href="#fremgangsmåde">Fremgangsmåde</a></li>
+          <li><a href="#tips">Tips</a></li>
+          <li><a href="#links">Links</a></li>
+        </ul>
+      </article>
+
+      <article class="grid-item2" id="beskrivelse">
+      <h2>Pandekager</h2>
+      <p>Pandekager --- mmmmm, nam nam nam - øjjjj hvor smager de godt. Hvis du du vil ha' den hemmelige opskrift skal du bare læse med ☺</p>
+      </article>
+      
+      <article class="grid-item3">
+      </article>
+
+      <article class="grid-item2">
+      </article>
+
+      <article class="grid-item" id="ingredienser">
+        <h3>Ingredienser</h3>
+        <p>Pandekagehuset anbefaler følgende ingredienser (og mængder):</p>
+        <ul>
+          <li>Mælk (800 ml)</li>
+          <li>Æg (6 styk)</li>
+          <li>Citronskal (husk at skylle og gerne en usprøjtet 1)</li>
+          <li>Vanilje (fra 1 vaniljestang)</li>
+          <li>Salt (1 teske eller på gefühl)</li>
+          <li>Mel (300 g)</li>
+          <li>Smør (nok til at kunne stege igen)</li>
+        </ul>
+      </article>
+
+      <article class="grid-item2">
+      </article>
+
+      <article class="grid-item" id="fremgangsmåde">
+        <h3>Fremgangsmåde</h3>
+        <ol>
+          <li>Bland mælk, æg, citronskal, vanilje og salt i en stor skål og pisk det sammen.</li>
+          <li>Drys løbende mel i under omrøring.</li>
+          <li>Lad det hvile omkring 30 minutter.</li>
+          <li>Steg pandekagerne på pande i brusende smør ca. 50 ml dej per kage og fordel over hele panden så den bliver tynd og husk den skal være gylden på begge sider.</li>
+          <li>Kom nogen ovenpå hvis du vil det.</li>
+          <li>Husk at spise pandkagerne løbende så de ikke når bliver kolde 😁</li>
+        </ol>
+      </article>
+
+      <article class="grid-item">
+      </article>
+      
+      <article class="grid-item4">
+      </article>
+
+      <article class="grid-item" id="tips">
+        <h4>Skjult tip</h4>
+        <img src="pancakeflip.jpg" alt="En flyvende pandekage" class="pancakeflip"><figcaption><b>Hold da op</b> - <i>sådan</i> vendes en pandekage!</b></figcaption>
+      </article>
+
+      <article class="grid-item">
+      </article>
+
+      <article class="grid-item2" id="links">
+        <h3>Dyk dybbere ned i pandekagernes verden
+        </h3>
+        <a href="https://denstoredanske.lex.dk/pandekage">Hvad er en pandekage?<a><br><br>
+        <a href="https://www.nationalgeographic.com/culture/article/hot-off-the-griddle-heres-the-history-of-pancakes">En kort gennemgang af pandekagens historie (på engelsk)</a><br><br>        <a href=""></a>
+        <a href="https://pandekager.dk/raadhuspandekager/">En anden klassisk opskrift!</a>
+      </article>
     </section>
-    
-    <article id="ingredienser">
-      <h3>Ingredienser</h3>
-      <p>De bedste pandekager består af de følgende ingredienser:</p>
-      <ul>
-        <li>Hvedemel</li>
-        <li>Mælk</li>
-        <li>Smør</li>
-        <li>Æg</li>
-        <li>Salt</li>
-      </ul>
-    </article>
-
-    <article id="fremgangsmåde">
-      <h3>Fremgangsmåde</h3>
-      <ol>
-        <li>I en skål skal melet og mælken piskes løbende i.</li>
-        <li>2. skridt</li>
-        <li>3. skridt</li>
-        <li>4. skridt</li>
-        <li>5. skridt</li>
-      </ol>
-    </article>
-    
-    <article id="næringsindhold">
-      <p>Ingredienser - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <table>
-        <tr><th>Ingredienser</th><th>Mængder</th></tr>
-        <tr><th>Hvedemel</th><th>200 g</th></tr>
-        <tr><th>Mælk</th><th>200 g</th></tr>
-        <tr><th>Smør</th><th>200 g</th></tr>
-        <tr><th>Æg</th><th>200 g</th></tr>
-        <tr><th>Salt</th><th>200 g</th></tr>
-      </table>
-    </article>
-    
-    <aside id="tips">
-      <img src="pancakeflip.jpg" alt="En flyvende pandekage"><caption><b>Hold da op</b> - <i>sådan</i> vendes en pandekage!</b></caption>
-    </aside>  <!--From "https://commons.wikimedia.org/wiki/File:Nell_Langlais_keert_een_pannenkoek_door_hem_in_de_lucht_te_gooien,_Bestanddeelnr_189-1064.jpg"-->
-    
-    <nav>
-      <a href="https://denstoredanske.lex.dk/pandekage">Hvad er en pandekage?<a>
-      <a href="https://www.nationalgeographic.com/culture/article/hot-off-the-griddle-heres-the-history-of-pancakes">En kort gennemgang af pandekagens historie (på engelsk)</a>
-    </nav>
-  
-  </main>
-</body>
-
+  </body>
+</html>
 </html>
